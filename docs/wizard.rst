@@ -752,7 +752,7 @@ This is an example of a ``urls.py`` for a contact wizard with two steps, step 1 
         path('contact/', contact_wizard, name='contact'),
     ]
 
-Advanced ``NamedUrlWizardView`` methods
+Advanced ``NamedUrlWizardView`` method
 =======================================
 
 .. method:: NamedUrlWizardView.get_step_url(step)
